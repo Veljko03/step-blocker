@@ -21,7 +21,7 @@ class MainActivity : ComponentActivity() {
             FitblockerTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
                     Greeting(
-                        name = "Veljko",
+                        name = "Veljkoo",
                         modifier = Modifier.padding(innerPadding)
                     )
                 }
@@ -33,7 +33,7 @@ class MainActivity : ComponentActivity() {
 @Composable
 fun Greeting(name: String, modifier: Modifier = Modifier) {
     Text(
-        text = "Hello $name!",
+        text = "Zdravo $name!",
         modifier = modifier
     )
 }
